@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nordictube.no/sitemap.xml

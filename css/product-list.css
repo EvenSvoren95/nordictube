@@ -1,0 +1,9 @@
+/* Product index page */
+.all-products{padding:110px 0}
+.all-products h1{font:600 clamp(56px,7vw,110px)/1.06 "Manrope",sans-serif;letter-spacing:-.08em;margin:20px 0}
+.all-products .cards{grid-template-columns:repeat(2,1fr)}
+.all-products .card{padding:35px}
+.all-products .card img{aspect-ratio:1.7}
+.all-products .card b{font-size:30px}
+@media(max-width:850px){.wrap{width:calc(100% - 44px)}.all-products{padding:65px 0}.cards,.all-products .cards{grid-template-columns:1fr}.top nav{gap:16px}.top .brand{font-size:17px}}
+@media(max-width:480px){.top nav{font-size:11px}.top .brand i{display:none}}

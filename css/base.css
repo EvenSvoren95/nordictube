@@ -1,0 +1,4 @@
+/* Design tokens, reset and shared foundation */
+
+:root{--ink:#181919;--surface:#f3f1eb;--cream:#e9e4d9;--muted:#8a8982;--rust:#9c5e3f;--line:rgba(25,25,24,.14);--display:'Manrope',Arial,sans-serif;--body:'DM Sans',Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--surface);color:var(--ink);font-family:var(--body);-webkit-font-smoothing:antialiased}a{text-decoration:none;color:inherit}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #dfaa7b;outline-offset:5px}::selection{background:#c48a62;color:#101010}.wrap{width:min(1520px,calc(100% - 104px));margin-inline:auto}.micro{font:700 10px/1.4 var(--body);letter-spacing:.22em;text-transform:uppercase}.rust{color:var(--rust)}
+

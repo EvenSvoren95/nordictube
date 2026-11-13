@@ -1,0 +1,12 @@
+.illustrations{padding:100px 0}
+.illustrations h1{font:600 clamp(52px,7vw,110px)/1.06 "Manrope",sans-serif;letter-spacing:-.075em;margin:25px 0}
+.illustration-lead{max-width:630px;line-height:1.85;color:#706b63;font-size:17px}
+.film-jump{display:inline-block;margin:12px 0 50px;border-bottom:1px solid #9c5e3f;padding-bottom:10px;font-size:14px}
+.illustration-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 28px}
+.illustration{min-width:0}.illustration-image{display:block;position:relative;background:#e3ddd2;padding:24px 24px 50px}
+.illustration-image img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
+.illustration-image span{position:absolute;bottom:20px;right:24px;font-size:12px;color:#685344}
+.illustration-copy{padding:22px 0;border-bottom:1px solid #c7bfb3}.illustration-copy h2{font:600 30px/1.2 "Manrope",sans-serif;letter-spacing:-.05em;margin:0 0 12px}.illustration-copy p{color:#706b63;line-height:1.7;font-size:15px}.illustration-copy>a{display:inline-block;font-size:13px;color:#9c5e3f;padding:8px 0}
+#films-title{scroll-margin-top:30px}
+.top [aria-current="page"]{color:#d9ac8d}
+@media(max-width:760px){.illustrations{padding:65px 0}.illustration-grid{grid-template-columns:1fr}.illustration-lead{font-size:15px}.top .brand{font-size:17px}.top .brand i{display:none}.top .wrap{gap:15px}.top nav{gap:12px;font-size:11px}}
